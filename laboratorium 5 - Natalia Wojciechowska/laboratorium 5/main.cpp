@@ -35,8 +35,8 @@ void main()
 		E = (m * l * l) / 2 * Y[0] * Y[0] + m * g * l * (1 - cos(Y[1]));     //obliczanie energii calkowitej wahadla
 		Y[0] = Y1[0];                                            //przypisanie nowych wartosci 
 		Y[1] = Y1[1];
-		fprintf(f, "%lf\t%lf\t%lf\t%lf\t%lf\t%lf\n", t, X1[0], X1[1], Y1[0], Y1[1], E); //czas, wartosc omega, wartosc alfa (obie w kroku t+h dla metody Eulera), 
-																						//wartosc omega, wartosc alfa (obie w kroku t+h dla metody RK4)
+		fprintf(f, "%lf\t%lf\t%lf\t%lf\t%lf\t%lf\n", t, X1[0], X1[1], Y1[0], Y1[1], E); 
+																						
 	}
 
 
